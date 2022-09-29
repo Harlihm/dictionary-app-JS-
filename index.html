@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  
+  <body>
+           
+    <!-- DUCTIONARY WRAPPER STARTS -->
+
+    <div class="wrapper">
+   
+
+      <!-- HEADER STARTS  -->
+
+      <header> PainXcode<br><h4> Dictionary</h4></header>
+
+      <!-- HEADER ENDS -->
+
+      <!-- INPUT AND SEARCH TAB STARTS  -->
+
+      <div class="search">
+        <input type="text" placeholder="Search a word" required spellcheck="false">
+        <i class="fas fa-search"></i>
+        <span class="material-icons">close</span>
+      </div>
+
+      <!-- INPUT AND SEARCH TAB ENDS  -->
+      <!-- PARAGRAPH -->
+      <p class="info-text">Type any word and press enter</p>
+       <!-- PARAGRAPH -->
+
+       <!-- SERACHED RESULT LIST STARTS -->
+      <ul>
+        <!-- WORD -->
+        <li class="word">
+          <div class="details">
+            <p>__</p>
+            <span>_ _</span>
+          </div>
+        </li>
+        <!-- CONTENT  -->
+        <div class="content">
+            <!-- MEANING  -->
+          <li class="meaning">
+            <div class="details">
+              <p>Meaning</p>
+              <span>___</span>
+            </div>
+          </li>
+          <!-- EXAMPLE  -->
+          <li class="example">
+            <div class="details">
+              <p>Example</p>
+              <span>___</span>
+            </div>
+          </li>
+          <!-- SYNONYMS  -->
+          <li class="synonyms">
+            <div class="details">
+              <p>Synonyms</p>
+              <div class="list"></div>
+            </div>
+          </li>
+        </div>
+      </ul>
+        <!-- SERACHED RESULT LIST STARTS -->
+    </div>
+    <!-- DUCTIONARY WRAPPER ENDS -->
+ 
+    <!-- JAVASCRIPT SRC  -->
+    <script src="script.js"></script>
+      
+    </script>
+    </body>
+</html>
